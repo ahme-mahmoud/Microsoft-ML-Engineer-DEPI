@@ -17,6 +17,7 @@ The application allows managing employee records with validation and CSV file st
 ---
 
 ## 🧱 Project Structure
+``` 
 
 employee_management_system/
 │
@@ -26,6 +27,7 @@ employee_management_system/
 ├── view.py         # Tkinter GUI
 ├── controller.py   # Business logic controller
 └── README.md       # Project documentation
+``` 
 
 ---
 
