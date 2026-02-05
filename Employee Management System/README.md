@@ -1,54 +1,56 @@
-🧑‍💼 Employee Management System
+# 🧑‍💼 Employee Management System
 
-A desktop-based Employee Management System built with Python and Tkinter following an MVC-style structure.
+A desktop-based Employee Management System built with **Python** and **Tkinter** using a modular MVC-style design.  
 The application allows managing employee records with validation and CSV file storage.
 
-🚀 Features
+---
 
-Add new employee
+## 🚀 Features
 
-Delete employee
+- Add new employee records  
+- Delete existing employees  
+- Data validation (ID, Salary, Email format)  
+- Persistent storage using CSV file  
+- Simple graphical user interface  
+- Organized project structure (Model–View–Controller)
 
-Data validation (ID, Salary, Email)
+---
 
-Persistent storage using CSV
+## 🧱 Project Structure
 
-Simple graphical interface
-
-Modular project structure (Model–View–Controller)
-
-🧱 Project Structure
 employee_management_system/
 │
 ├── app.py          # Application entry point
 ├── model.py        # Employee model & validation logic
-├── storage.py      # File handling (CSV storage)
+├── storage.py      # CSV file handling
 ├── view.py         # Tkinter GUI
 ├── controller.py   # Business logic controller
 └── README.md       # Project documentation
 
-▶️ How to Run
+---
 
-Make sure Python 3 is installed
+## ▶️ How to Run
 
-Navigate to the project folder
-
-Run:
+1. Make sure Python 3 is installed on your system  
+2. Open terminal inside the project folder  
+3. Run:
 
 python app.py
 
-🛠 Technologies Used
+---
 
-Python
+## 🛠 Technologies Used
 
-Tkinter (GUI)
+- Python  
+- Tkinter (GUI)  
+- CSV File Handling  
+- Object-Oriented Programming  
+- MVC Design Pattern  
 
-CSV File Handling
+---
 
-OOP & MVC Design
+## 📌 Notes
 
-📌 Notes
-
-Employee data is saved automatically in employees.csv
-
-The system validates input before saving data
+- Employee data is saved automatically in employees.csv  
+- Input data is validated before saving  
+- The application works offline
